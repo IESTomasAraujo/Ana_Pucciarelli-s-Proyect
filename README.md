@@ -1,7 +1,6 @@
 # Ana_Pucciarelli-s-Proyect
-Armado y maquetado de pagina web aplicando estilos de negocios  y utilizando templates.
+Armado y maquetado de pagina web aplicando estilos de negocios y utilizando templates. la creación de la pagina web está relacionada al negocio de ventas automovilistico.
 
-Proyecto para la creación de la pagina web relacionada al negocio de ventas automovilistico.
 
 Se busca la optimizacion de las ventas y una comunicacion directa entre vendedora - Cliente. 
 
