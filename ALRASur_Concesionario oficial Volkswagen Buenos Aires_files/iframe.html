@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!-- saved from url=(0034)https://wb.cliengo.com/iframe.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<!--<base href="/">--><base href=".">
+<title>WhatsApp Button</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<link rel="stylesheet" href="./button.css">
+</head><body id="bodyIframe">
+<script>
+  window.addEventListener('message', function (event) {
+    // IMPORTANT: Check the origin of the data!
+    var acceptedEvents = ['WSP_CONFIGS', 'WSP_LEAD_CREATED', 'WSP_LEAD_FAILED', 'WSP_IPINFO'];
+    if (acceptedEvents.indexOf(event.data.type) !== -1) {
+      window.dispatchEvent(new CustomEvent(event.data.type, { detail: event.data.data }));
+    }
+  });
+</script>
+<script src="./button.js.descarga"></script>
+<script type="text/javascript">
+var togglePoweredByPopUp = () => {
+   let element = document.getElementById('poweredBy');
+    // toggle class
+    if (element.classList.contains('poweredByPopup-hidden')) {
+      element.classList.remove('poweredByPopup-hidden');
+      element.classList.add('powered-by-popup');
+    } else {
+      element.classList.remove('powered-by-popup');
+      element.classList.add('poweredByPopup-hidden');
+    }
+};
+</script>
+
+
+</body></html>
